@@ -14,6 +14,16 @@ export default class PokemonDisplay extends React.Component{
 		}
 	}
 
+	componentDidMount(){
+		console.log("This message will appear once.");
+	}
+
+	componentWillUnmount(){
+		console.log("Component is being removed from the page.");
+	}
+
+	// Render is how we return JSX up to the React app
+	// so that something is displayed to the browser 
 	render(){
 		return(
 			<div>
