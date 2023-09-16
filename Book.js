@@ -13,5 +13,9 @@ class Book extends Media {
 	}
 }
 
-let someBook = new Book("Coolest Programming Guide Ever 2023");
-console.log(someBook.name);
+// let someBook = new Book("Coolest Programming Guide Ever 2023");
+// console.log(someBook.name);
+
+module.exports = {
+	Book
+}
